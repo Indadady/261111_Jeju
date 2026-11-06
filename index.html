@@ -101,30 +101,30 @@
             .print-hidden, .print\:hidden, .no-print { display: none !important; }
             #print-area { display: block !important; width: 100%; color: #1e293b; font-family: 'Noto Sans KR', sans-serif; }
             .print-page-container { width: 100%; margin: 0; padding: 0; }
-            .print-header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #004098; padding-bottom: 8px; margin-bottom: 15px; }
+            .print-header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #004098; padding-bottom: 6px; margin-bottom: 8px; }
             .print-header .logo img { height: 32px; object-fit: contain; }
             .print-header .doc-info { text-align: right; font-size: 11px; color: #475569; }
-            .print-title-section { text-align: center; margin-bottom: 15px; }
+            .print-title-section { text-align: center; margin-bottom: 8px; }
             .print-title-section h1 { font-size: 20px; font-weight: 700; color: #0f172a; letter-spacing: -0.5px; margin: 0; }
             .print-overview-slim {
                 display: flex; justify-content: space-between; gap: 8px;
                 background-color: #f8fafc; border: 1px solid #94a3b8; border-radius: 6px;
-                padding: 8px 14px; margin-bottom: 15px; font-size: 12.5px; word-break: keep-all;
+                padding: 6px 12px; margin-bottom: 8px; font-size: 12px; word-break: keep-all;
             }
             .print-overview-item { display: flex; gap: 8px; align-items: flex-start; min-width: 0; }
             .print-overview-slim .label { font-weight: 700; color: #004098; white-space: nowrap; flex-shrink: 0; }
             .print-overview-slim .value { line-height: 1.45; }
             .print-nowrap { white-space: nowrap; }
-            .print-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 12px; table-layout: fixed; border: 2px solid #1e293b; }
-            .print-table th, .print-table td { border: 1px solid #1e293b; padding: 8px 10px; vertical-align: top; page-break-inside: avoid; word-break: keep-all; }
+            .print-table { width: 100%; border-collapse: collapse; margin-bottom: 8px; font-size: 11px; table-layout: fixed; border: 2px solid #1e293b; }
+            .print-table th, .print-table td { border: 1px solid #1e293b; padding: 5px 7px; vertical-align: top; page-break-inside: avoid; word-break: keep-all; }
             .print-table th { background-color: #f8fafc !important; color: #1e293b; font-weight: 700; text-align: center; font-size: 12.5px; border-bottom: 2px solid #1e293b; }
             .print-table tr { page-break-inside: avoid; }
             .print-col-date { width: 10%; text-align: center; font-weight: 700; vertical-align: middle; background-color: #f8fafc; }
             .print-col-desc { width: 70%; }
             .print-col-meal { width: 20%; text-align: center; vertical-align: middle; }
             .print-day-divider td { border-top: 2px solid #1e293b !important; }
-            .print-time-flow { margin-bottom: 4px; font-weight: 500; font-size: 12px; }
-            .print-time-tag { display: inline-block; color: #004098; font-weight: 700; margin-right: 5px; }
+            .print-time-flow { margin-bottom: 2px; font-weight: 500; font-size: 11px; line-height: 1.35; }
+            .print-time-tag { display: inline-block; color: #004098; font-weight: 700; margin-right: 4px; min-width: 5.8rem; white-space: nowrap; }
             .print-highlight { font-weight: 700; color: #0f172a; }
             .print-desc-list { list-style: none; margin: 4px 0 8px 0; padding-left: 5px; font-size: 12px; }
             .print-desc-list li { position: relative; padding-left: 12px; margin-bottom: 3px; line-height: 1.45; }
@@ -905,14 +905,11 @@
                         <td class="print-col-desc">
                             <div class="print-time-flow"><span class="print-time-tag">10:55</span> 청주공항 출발 (진에어 LJ7483 · EZXND2) <span class="print-highlight">★신분증 원본</span></div>
                             <div class="print-time-flow"><span class="print-time-tag">12:05</span> 제주공항 도착 · 노석우 기사님 미팅</div>
-                            <ul class="print-desc-list">
-                                <li><span class="print-time-tag">12:50</span> <span class="print-highlight">이호테우말등대</span> (~13:00)</li>
-                                <li><span class="print-time-tag">13:10</span> 중식 <span class="print-highlight">통갈치구이 모둠세트</span> (~14:00)</li>
-                                <li><span class="print-time-tag">15:00</span> <span class="print-highlight">산방산유람선</span> (~16:20)</li>
-                                <li><span class="print-time-tag">16:50</span> <span class="print-highlight">서귀포올레시장</span> 상인회 사무실 강연 (~18:00)</li>
-                                <li><span class="print-time-tag">18:30</span> 석식 <span class="print-highlight">흑돼지구이</span></li>
-                                <li>숙소 도착 및 체크인</li>
-                            </ul>
+                            <div class="print-time-flow"><span class="print-time-tag">12:50~13:00</span> <span class="print-highlight">이호테우말등대</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">13:10~14:00</span> 중식 <span class="print-highlight">통갈치구이 모둠세트</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">15:00~16:20</span> <span class="print-highlight">산방산유람선</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">16:50~18:00</span> <span class="print-highlight">서귀포올레시장</span> 상인회 사무실 강연</div>
+                            <div class="print-time-flow"><span class="print-time-tag">18:30</span> 석식 <span class="print-highlight">흑돼지구이</span> · 숙소 체크인</div>
                             <hr class="print-hotel-divider">
                             <div class="print-hotel-info">🏨 호텔명 : 서귀포 브릿지호텔 (2인실 · 2박 · 조식)</div>
                         </td>
@@ -927,16 +924,15 @@
                     <tr class="print-day-divider">
                         <td class="print-col-date"><strong class="print-nowrap">2일차</strong><br><span class="print-nowrap">11/12 (목)</span></td>
                         <td class="print-col-desc">
-                            <div class="print-time-flow"><span class="print-time-tag">08:40</span> 조식 후 출발 · <span class="print-time-tag">09:00</span> <span class="print-highlight">호텔 세미나실</span> 사진 · 휴식</div>
-                            <ul class="print-desc-list">
-                                <li><span class="print-time-tag">10:30</span> <span class="print-highlight">감귤따기체험</span>(무한시식, 1kg)</li>
-                                <li><span class="print-time-tag">12:00</span> 중식 <span class="print-highlight">토종닭샤브샤브</span></li>
-                                <li><span class="print-time-tag">13:20</span> <span class="print-highlight">아로마족욕 또는 녹차족욕</span> 택1</li>
-                                <li><span class="print-time-tag">14:10</span> <span class="print-highlight">스카이워터쇼공연</span></li>
-                                <li><span class="print-time-tag">15:40</span> <span class="print-highlight">사려니숲길</span></li>
-                                <li><span class="print-time-tag">17:40</span> 석식 <span class="print-highlight">회정식</span></li>
-                                <li><span class="print-time-tag">19:20</span> 숙소 도착 및 자유시간</li>
-                            </ul>
+                            <div class="print-time-flow"><span class="print-time-tag">08:40</span> 기상 · 호텔 조식 후 출발</div>
+                            <div class="print-time-flow"><span class="print-time-tag">09:00~09:50</span> <span class="print-highlight">호텔 세미나실</span> 단체 사진 · 휴식</div>
+                            <div class="print-time-flow"><span class="print-time-tag">10:30~11:50</span> <span class="print-highlight">감귤따기체험</span> (무한시식, 1kg)</div>
+                            <div class="print-time-flow"><span class="print-time-tag">12:00~13:00</span> 중식 <span class="print-highlight">토종닭샤브샤브</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">13:20~14:00</span> <span class="print-highlight">아로마족욕 또는 녹차족욕</span> 택1</div>
+                            <div class="print-time-flow"><span class="print-time-tag">14:10~15:20</span> <span class="print-highlight">스카이워터쇼공연</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">15:40~16:40</span> <span class="print-highlight">사려니숲길</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">17:40~19:00</span> 석식 <span class="print-highlight">회정식</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">19:20</span> 숙소 도착 및 자유시간</div>
                             <hr class="print-hotel-divider">
                             <div class="print-hotel-info">🏨 호텔명 : 서귀포 브릿지호텔 (2인실 · 2박 · 조식)</div>
                         </td>
@@ -952,12 +948,10 @@
                         <td class="print-col-date"><strong class="print-nowrap">3일차</strong><br><span class="print-nowrap">11/13 (금)</span></td>
                         <td class="print-col-desc">
                             <div class="print-time-flow"><span class="print-time-tag">08:20</span> 기상 · 조식 후 체크아웃</div>
-                            <ul class="print-desc-list">
-                                <li><span class="print-time-tag">09:10</span> <span class="print-highlight">삼달리 꽃밭</span></li>
-                                <li><span class="print-time-tag">11:00</span> <span class="print-highlight">농수산쇼핑센타</span></li>
-                                <li><span class="print-time-tag">11:50</span> 중식 <span class="print-highlight">흑우불고기정식</span></li>
-                            </ul>
-                            <div class="print-time-flow" style="margin-top: 8px;"><span class="print-time-tag">13:00</span> 제주공항 도착 후 수속</div>
+                            <div class="print-time-flow"><span class="print-time-tag">09:10~10:20</span> <span class="print-highlight">삼달리 꽃밭</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">11:00~11:40</span> <span class="print-highlight">농수산쇼핑센타</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">11:50~12:40</span> 중식 <span class="print-highlight">흑우불고기정식</span></div>
+                            <div class="print-time-flow"><span class="print-time-tag">13:00</span> 제주공항 도착 후 수속</div>
                             <div class="print-time-flow"><span class="print-time-tag">14:05</span> 제주공항 출발 (진에어 LJ7486)</div>
                             <div class="print-time-flow"><span class="print-time-tag">15:15</span> 청주공항 도착</div>
                         </td>

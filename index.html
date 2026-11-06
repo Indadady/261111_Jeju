@@ -254,7 +254,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 text-sm">
                             <div class="bg-slate-50 rounded-xl p-4 border border-slate-100">
                                 <p class="font-bold text-slate-800 mb-1">가는 편 · 11/11(수)</p>
-                                <p class="text-slate-600">LJ7483 · 예약번호 EZXND2 · 청주 10:55 출발 → 제주 12:05 도착 · 노석우 기사님 미팅</p>
+                                <p class="text-slate-600">LJ7483 · 예약번호 EZXND2 · 청주 10:55 출발 → 제주 12:05 도착 · 기사님 미팅</p>
                             </div>
                             <div class="bg-slate-50 rounded-xl p-4 border border-slate-100">
                                 <p class="font-bold text-slate-800 mb-1">오는 편 · 11/13(금)</p>
@@ -439,7 +439,7 @@
                             <div class="relative pl-8 border-l-2 border-emerald-200">
                                 <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-blue-400"></div>
                                 <h4 class="font-bold text-lg">10:55 청주 출발 · 12:05 제주 도착 (진에어 LJ7483)</h4>
-                                <p class="text-slate-500 text-sm mt-1">제주공항에서 노석우 기사님과 미팅합니다.</p>
+                                <p class="text-slate-500 text-sm mt-1">제주공항에서 기사님과 미팅합니다.</p>
                             </div>
                             <div class="relative pl-8 border-l-2 border-emerald-200">
                                 <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-sky-500"></div>
@@ -705,7 +705,7 @@
                             <div>
                                 <p class="text-xs font-bold text-teal-600 mb-0.5">현지 안내</p>
                                 <p class="font-bold text-slate-800 text-sm">가이드 미정</p>
-                                <p class="text-sm text-slate-500 mt-1 font-medium">기사 노석우</p>
+                                <p class="text-sm text-slate-500 mt-1 font-medium">기사님 안내</p>
                             </div>
                         </div>
                     </div>
@@ -747,15 +747,11 @@
                     </div>
                 </div>
                 <div id="esg" class="bg-green-50/50 p-4 sm:p-6 rounded-2xl border border-green-100 shadow-sm">
-                    <div class="inline-flex items-center gap-1.5 bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full font-bold mb-3 border border-green-200">
-                        <span class="w-2 h-2 rounded-full bg-green-600 animate-ping"></span>
-                        📊 실시간 가이드북 열람 : <strong class="tm-view-count-val">...</strong>회
-                    </div>
                     <h3 class="font-bold text-green-900 text-sm sm:text-base mb-3 sm:mb-4 flex items-center gap-2">
                         <i class="fa-solid fa-leaf text-green-500 shrink-0"></i>
                         <span>ESG 실천 대시보드</span>
                     </h3>
-                    <div class="grid grid-cols-3 gap-1.5 sm:gap-3 text-center mb-3 sm:mb-4">
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-3 text-center mb-3 sm:mb-4">
                         <div class="bg-white p-2.5 sm:p-3 rounded-xl shadow-sm border border-green-100 min-w-0">
                             <i class="fa-solid fa-tree text-green-500 text-base sm:text-xl mb-1"></i>
                             <p class="esg-stat-label text-[10px] sm:text-[11px] text-slate-500 font-bold">종이 절감</p>
@@ -771,6 +767,11 @@
                             <p class="esg-stat-label text-[10px] sm:text-[11px] text-slate-500 font-bold">물 절약</p>
                             <p class="font-black text-blue-700 text-sm sm:text-lg mt-0.5" id="esg-water">0L</p>
                         </div>
+                        <div class="bg-white p-2.5 sm:p-3 rounded-xl shadow-sm border border-green-100 min-w-0">
+                            <i class="fa-solid fa-eye text-green-600 text-base sm:text-xl mb-1"></i>
+                            <p class="esg-stat-label text-[10px] sm:text-[11px] text-slate-500 font-bold">📊 실시간 가이드북 열람</p>
+                            <p class="font-black text-green-800 text-sm sm:text-lg mt-0.5" id="tm-view-count"><span class="tm-view-count-val">—</span>회</p>
+                        </div>
                     </div>
                     <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed bg-white p-3 rounded-lg border border-green-100" id="esg-desc">계산중...</p>
                 </div>
@@ -780,13 +781,10 @@
 
     <footer style="background-color: #f8f9fa;" class="py-12 border-t border-slate-200 no-print">
         <div class="container mx-auto px-4 max-w-3xl text-center">
-            <div class="bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-md mb-8 text-left md:text-center">
-                <div class="flex flex-wrap items-center justify-between md:justify-center gap-2 mb-3">
+            <div class="w-full bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-md mb-8 text-left md:text-center">
+                <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
                     <span class="inline-flex items-center gap-1.5 bg-blue-50 text-[#004098] text-xs font-extrabold px-3 py-1 rounded-full border border-blue-200">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> TOURMAKER SMART GUIDEBOOK
-                    </span>
-                    <span class="inline-flex items-center gap-1.5 bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full">
-                        📊 실시간 가이드북 열람 : <strong class="tm-view-count-val text-[#004098]">...</strong>회
                     </span>
                 </div>
                 <h3 class="text-lg md:text-xl font-extrabold text-slate-800 mb-1.5">우리 모임·학교·기관도 스마트 가이드북으로 여행 준비하기</h3>
@@ -800,7 +798,12 @@
                     </a>
                 </div>
             </div>
-            <p class="text-xs text-slate-500 max-w-2xl mx-auto leading-relaxed mb-6">[System Powered by TOURMAKER] 본 스마트 가이드북은 <strong>정선군 주민자치협의회</strong> 선진지견학 일정 안내와 <a href="http://tourmaker.kr" target="_blank" rel="noopener" class="font-bold underline">투어메이커</a>의 트래블 테크 기술 제휴로 제작되었습니다.</p>
+            <div class="w-full mb-5 px-4 py-3 rounded-xl bg-slate-200/70 border border-slate-300 text-[11px] text-slate-600 leading-relaxed text-left">
+                <p class="font-bold text-slate-800 mb-0.5"><i class="fa-solid fa-shield-halved text-[#004098] mr-1"></i> 지적재산권 보호 및 외부 유출 금지 안내</p>
+                본 스마트 가이드북은 <strong>(주)투어메이커의 고유 지적재산</strong>입니다.
+                <strong class="tm-client-name">정선군 주민자치협의회</strong> 전용 제안서·스마트 가이드북이며, 외부 유출 시 <strong>접속 IP 및 열람 횟수(현재 <span class="tm-view-count-val font-extrabold text-red-600">—</span>회)가 자동 기록</strong>됩니다.
+            </div>
+            <p class="text-xs text-slate-500 w-full leading-relaxed mb-4">[System Powered by TOURMAKER]<br>본 스마트 가이드북은 <strong class="tm-client-name">정선군 주민자치협의회</strong> 선진지견학 일정 안내와 <a href="http://tourmaker.kr" target="_blank" rel="noopener" class="font-bold underline">투어메이커</a>의 트래블 테크 기술 제휴로 제작되었습니다.</p>
             <p class="text-[10px] text-slate-400">&copy; 2026 Tourmaker Inc. All rights reserved.</p>
         </div>
     </footer>
@@ -904,7 +907,7 @@
                         <td class="print-col-date"><strong class="print-nowrap">1일차</strong><br><span class="print-nowrap">11/11 (수)</span></td>
                         <td class="print-col-desc">
                             <div class="print-time-flow"><span class="print-time-tag">10:55</span> 청주공항 출발 (진에어 LJ7483 · EZXND2) <span class="print-highlight">★신분증 원본</span></div>
-                            <div class="print-time-flow"><span class="print-time-tag">12:05</span> 제주공항 도착 · 노석우 기사님 미팅</div>
+                            <div class="print-time-flow"><span class="print-time-tag">12:05</span> 제주공항 도착 · 기사님 미팅</div>
                             <div class="print-time-flow"><span class="print-time-tag">12:50~13:00</span> <span class="print-highlight">이호테우말등대</span></div>
                             <div class="print-time-flow"><span class="print-time-tag">13:10~14:00</span> 중식 <span class="print-highlight">통갈치구이 모둠세트</span></div>
                             <div class="print-time-flow"><span class="print-time-tag">15:00~16:20</span> <span class="print-highlight">산방산유람선</span></div>
@@ -973,7 +976,7 @@
             <div class="print-contacts">
                 <span><span class="pc-role">담당</span> 배부근 010-9362-8265</span>
                 <span><span class="pc-role">투어메이커</span> 이재명 010-9443-7881 · 조혁 010-4249-4026</span>
-                <span><span class="pc-role">현지 안내</span> 가이드 미정 · 기사 노석우</span>
+                <span><span class="pc-role">현지 안내</span> 가이드 미정 · 기사님 안내</span>
                 <span><span class="pc-role">숙소</span> 서귀포 브릿지호텔 (2인실·조식) · 064-732-9500</span>
             </div>
             <div class="print-footer-box">
@@ -1632,6 +1635,8 @@
 
         const TM_GUIDEBOOK_SLUG = '261111_Jeju';
         const TM_GUIDEBOOK_NAME = '정선군 주민자치협의회 제주 선진지견학';
+        const TM_CLIENT_NAME = '정선군 주민자치협의회';
+        document.querySelectorAll('.tm-client-name').forEach((el) => { el.textContent = TM_CLIENT_NAME; });
         function openTmInquiryModal() {
             const m = document.getElementById('tm-inquiry-modal');
             if (!m) return;

@@ -11,8 +11,8 @@
 | day1-olle.jpg | Commons: Seogwipo Maeil Olle Market 01.jpg | CC BY-SA 4.0 · Seefooddiet |
 | day2-tangerine.jpg | Commons: KOCIS Trip to Jeju Island and Seoul (6279202476).jpg | KOGL / public cultural |
 | day2-ecoland.jpg | Commons: Jeju Ecoland (2).jpg | CC BY-SA · 화면 미사용 |
-| day2-skywatershow.jpg | Commons: Cheonjeyeon Waterfall.jpg (물·공연 시각 대체) | CC |
-| day2-samdal.jpg | Commons: Mt. Sanbangsan and Rape Field - panoramio.jpg | CC |
+| day2-skywatershow.jpg | 제주스카이워터쇼 공식 공연 사진 (물줄기 앞 공중 공연) | 공식 안내 사진 |
+| day2-samdal.jpg | 비짓제주 · 삼달리꽃밭에서 꽃밭·야자수 전경 | 제주관광 안내 사진 |
 | day3-saryeoni.jpg | Commons: Hallasan Eorimok Trail wooden staircase (숲길 시각) | CC BY-SA |
 | guidebook-qr.png | QR for https://indadady.github.io/261111_Jeju/ | generated |
 
